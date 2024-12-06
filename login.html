@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Maintenance</a>
+          <div class="dropdown-content">
+            <a href="Cable Joint Locations.html">Cable Joint Locations</a>
+            <a href="page2.html">Page 2</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Login</h1>
+    <form id="loginForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <button type="submit">Login</button>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
